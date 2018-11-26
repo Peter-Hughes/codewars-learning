@@ -1,5 +1,3 @@
-package com.lit.codewars
-
 fun findEvenIndex(arr: IntArray): Int {
     arr.forEachIndexed { index, _ ->
         when (arr.copyOfRange(0, index).sum()) {

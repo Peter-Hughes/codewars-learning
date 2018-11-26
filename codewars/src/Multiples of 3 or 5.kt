@@ -1,5 +1,3 @@
-package com.lit.codewars
-
 fun sumOf3or5(n: Int): Int {
     var x = 0
 

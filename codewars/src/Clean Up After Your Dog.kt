@@ -1,5 +1,3 @@
-package com.lit.codewars
-
 fun crap(x: Array<CharArray>, bags: Int, cap: Int): String {
     val garden =  x.map { it.map { c -> c } }.flatten().filter { it == '@' || it == 'D' }
 
