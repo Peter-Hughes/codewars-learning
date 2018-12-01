@@ -4,3 +4,5 @@ fun hexStringToRGB(hexString: String): RGB {
     val b = hexString.substring(5,7).toInt(16)
     return RGB(r, g, b)
 }
+
+data class RGB(val r: Int, val g: Int, val b: Int)
